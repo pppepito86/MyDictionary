@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">My Dictionary</string>
     <string name="action_settings">Settings</string>
+    <string name="label">label</string>
+    <string name="add">add</string>
+    <string name="deutsch_bg">deutsch_bg</string>
+    <string name="bg_deutsch">bg_deutsch</string>
+    <string name="exit">Exit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add">MainActivity</string>
+    <string name="save">save</string>
+    <string name="picture">picture</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="word">word</string>
+    <string name="meaning">meaning</string>
+    <string name="test">test</string>
+    <string name="statistics">statistics</string>
 </resources>

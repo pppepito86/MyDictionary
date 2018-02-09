@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test" >
+
+    <EditText
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:footerDividersEnabled="true"
+        android:inputType="none"
+        android:focusable="false"
+        android:cursorVisible="false"
+  	/>
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:footerDividersEnabled="true"
+        android:gravity="top"
+        android:inputType="none" 
+        android:focusable="false"
+        android:cursorVisible="false"
+   	/>
+    
+	<!--EditText
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:footerDividersEnabled="true"
+        android:gravity="top"
+        android:inputType="none" 
+        android:focusable="false"
+        android:cursorVisible="false"
+   	/-->
+
+ 	<Chronometer
+ 	    android:id="@+id/chronometer1"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_above="@+id/button2"
+ 	    android:gravity="center_horizontal"
+ 	    android:text="Chronometer" />
+    
+ 	<Button
+ 	    android:id="@+id/button1"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_below="@+id/button1"
+ 	    android:layout_alignParentBottom="true"
+ 	    android:text="Continue" />
+
+ 	<Button
+ 	    android:id="@+id/button2"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+		android:layout_above="@+id/button1"
+ 	    android:visibility="invisible" />
+
+</RelativeLayout>

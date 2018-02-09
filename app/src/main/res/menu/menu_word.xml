@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.pesho.mydictionary.WordActivity">
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:title="edit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="delete"
+        app:showAsAction="never" />
+</menu>

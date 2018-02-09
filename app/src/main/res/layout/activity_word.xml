@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.pesho.mydictionary.MainActivity">
+    tools:context=".WordActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar_main"
+            android:id="@+id/toolbar_word"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -26,8 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="org.pesho.mydictionary.MainActivity"
-        tools:showIn="@layout/activity_main">
+        tools:context=".WordActivity"
+        tools:showIn="@layout/activity_word">
 
         <EditText
             android:id="@+id/textView1"
@@ -35,16 +35,30 @@
             android:layout_height="50dp"
             android:layout_alignParentTop="true"
             android:footerDividersEnabled="true"
-            android:inputType="text"
+            android:inputType="none"
+            android:focusable="false"
+            android:cursorVisible="false"
             />
 
-        <ListView
-            android:id="@+id/listView1"
+        <EditText
+            android:id="@+id/textView2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_below="@+id/textView1"
-            android:footerDividersEnabled="true" >
-        </ListView>
+            android:footerDividersEnabled="true"
+            android:inputType="none"
+            android:focusable="false"
+            android:cursorVisible="false"
+            android:gravity="top"
+            />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" />
 
     </RelativeLayout>
 
