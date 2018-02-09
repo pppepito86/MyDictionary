@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.pesho.mydictionary.MainActivity">
+    tools:context="org.pesho.mydictionary.AddActivity">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="org.pesho.mydictionary.MainActivity"
-        tools:showIn="@layout/activity_main">
+        tools:context="org.pesho.mydictionary.AddActivity"
+        tools:showIn="@layout/activity_add">
 
         <TextView
             android:id="@+id/labelWord"
@@ -57,20 +57,6 @@
             android:layout_height="50dp"
             android:layout_below="@+id/labelLabel"
             android:inputType="text" />
-
-        <!--Button
-            android:id="@+id/buttonSave"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:text="@string/save" />
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_above="@+id/buttonSave"
-            android:layout_below="@+id/buttonPicture" /-->
 
         <Button
             android:id="@+id/buttonSave"

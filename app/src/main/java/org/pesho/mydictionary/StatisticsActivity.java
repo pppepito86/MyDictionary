@@ -43,13 +43,12 @@ public class StatisticsActivity extends Activity {
         
     }
 	
-	@SuppressWarnings("unchecked")
 	private void addLevel(int level, SortedSet<Word> words) {
 		int count = 0;
 		for (Word word : words) {
 			if (word.getLevel() == level) {
 				count++;
-			} else if (level == 10 && word.getLevel() > level) {
+			} else if (level == 10 && word.getLevel() >= level) {
 				count++;
 			}
 		}
